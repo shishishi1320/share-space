@@ -50,8 +50,6 @@ test:
 #
 production:
   <<: *default
-
   database: share-house-space_production
   username: share-house-space
-
   password: <%= ENV['SHARE-SPACE_DATABASE_PASSWORD'] %>
